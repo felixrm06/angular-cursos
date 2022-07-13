@@ -1,0 +1,26 @@
+<div class="luna">
+  <h1> {{ datos }}</h1>
+<h1>{{ name.toUpperCase() }}</h1>
+<dl>
+ <td> Nombre: </td>
+  <dd>{{ name.toUpperCase() }}</dd>
+
+  <td> direccion: </td>
+  <dd>{{ direccion.toUpperCase() }}</dd>
+
+  <td> Nombre y edad: </td>
+  <dd>{{ obtenernombre().toUpperCase() }}</dd>
+
+  <td>Capitalizado:</td>
+  <dd>{{ name.toUpperCase() }}</dd>
+  
+  <td>Info:</td>
+  <dd><td>carrera profesional: </td>{{ datascience().toUpperCase() }}</dd><p>
+
+  <td>informacion del alumno(a):</td>
+  <dd>{{ name.toUpperCase() }}</dd>
+  <p>
+  <button (click)="cambiarnombre()" style="color:green;background:white;">CAMBIAR HEROE</button>
+</dl>
+<app-listado></app-listado>
+</div>

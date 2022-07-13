@@ -1,0 +1,10 @@
+.luna{
+    width:720px;
+    background:rgba(120,0,0,0.56789);
+    border-radius:27px;
+    border:5px solid black;
+    text-align:center;
+    color:white;
+    margin-left: 326px;
+    box-shadow: 1px 1px 7px 7px rgba(0,0,0,0.5215);
+}

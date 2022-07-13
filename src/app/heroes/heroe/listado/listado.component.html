@@ -1,0 +1,15 @@
+<div *ngIf="heroku;else nena">
+    <h3 style="color:white;background:green">listado de heroes: <strong>{{ heroku }}</strong></h3>
+</div>
+<ng-template #nena>
+    <h3 style="background:red;color:white;">no se borrado nada!!!</h3><p>
+    <small>que paso mascota!!!</small>
+</ng-template>
+<button style="color:green;background:#fff" (click)="borrar()">
+    BORRAR
+</button>
+<ul>
+    <li *ngFor="let heroe of heroes;let i = index">
+         {{ i + 1 }} - {{ heroe }}
+    </li>
+</ul>
